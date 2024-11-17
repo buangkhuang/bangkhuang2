@@ -3,13 +3,9 @@
     "description": "Manga Shop - Một ứng dụng quản lý sản phẩm truyện tranh",
     "type": "project",
     "require": {
-<<<<<<< HEAD
-        "php": "^7.4 || ^8.0"
-=======
         "php": "^7.4 || ^8.0",
         "cloudinary/cloudinary_php": "^2.14",
         "kreait/firebase-php": "^5.26"
->>>>>>> b376628 (16/11)
     },
     "autoload": {
         "psr-4": {
