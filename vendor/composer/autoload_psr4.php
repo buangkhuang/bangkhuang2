@@ -6,8 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-<<<<<<< HEAD
-=======
     'Symfony\\Polyfill\\Php81\\' => array($vendorDir . '/symfony/polyfill-php81'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
@@ -59,6 +57,5 @@ return array(
     'Firebase\\Auth\\Token\\' => array($vendorDir . '/kreait/firebase-tokens/src/Firebase/Auth/Token'),
     'Fig\\Http\\Message\\' => array($vendorDir . '/fig/http-message-util/src'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
->>>>>>> b376628 (16/11)
     'App\\' => array($baseDir . '/app'),
 );

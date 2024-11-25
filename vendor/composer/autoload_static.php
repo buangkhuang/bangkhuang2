@@ -6,9 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2f567913e087138ec38c6184fd935166
 {
-<<<<<<< HEAD
-    public static $prefixLengthsPsr4 = array (
-=======
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -104,7 +101,6 @@ class ComposerStaticInit2f567913e087138ec38c6184fd935166
         array (
             'Brick\\Math\\' => 11,
         ),
->>>>>>> b376628 (16/11)
         'A' => 
         array (
             'App\\' => 4,
@@ -112,8 +108,6 @@ class ComposerStaticInit2f567913e087138ec38c6184fd935166
     );
 
     public static $prefixDirsPsr4 = array (
-<<<<<<< HEAD
-=======
         'Symfony\\Polyfill\\Php81\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php81',
@@ -319,7 +313,6 @@ class ComposerStaticInit2f567913e087138ec38c6184fd935166
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
->>>>>>> b376628 (16/11)
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -327,9 +320,6 @@ class ComposerStaticInit2f567913e087138ec38c6184fd935166
     );
 
     public static $classMap = array (
-<<<<<<< HEAD
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-=======
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
@@ -2436,7 +2426,6 @@ class ComposerStaticInit2f567913e087138ec38c6184fd935166
         'Symfony\\Polyfill\\Php81\\Php81' => __DIR__ . '/..' . '/symfony/polyfill-php81/Php81.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
->>>>>>> b376628 (16/11)
     );
 
     public static function getInitializer(ClassLoader $loader)

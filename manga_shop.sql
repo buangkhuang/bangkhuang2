@@ -33,10 +33,7 @@ CREATE TABLE `models` (
   `scale` varchar(50) DEFAULT NULL,
   `material` varchar(50) DEFAULT NULL,
   `dimensions` varchar(50) DEFAULT NULL,
-<<<<<<< HEAD
-=======
   `images` varchar(255) DEFAULT NULL,
->>>>>>> b376628 (16/11)
   `stock_quantity` int DEFAULT '0',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,

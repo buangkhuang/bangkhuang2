@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-<a href="/manga_shop/categories/create" class="btn btn-info">Add New Category</a>
-<table class="table">
-    <thead>
-=======
 <a href="/manga_shop/categories/create" class="btn btn-info mb-3">Add New Category</a>
 
 <table class="table table-bordered table-striped">
     <thead class="thead-dark">
->>>>>>> b376628 (16/11)
         <tr>
             <th scope="col">#</th>
             <th scope="col">Tên Danh Mục</th>
@@ -24,14 +18,9 @@
                 <td><?php echo $category['description']; ?></td>
                 <td><?php echo $category['created_at']; ?></td>
                 <td>
-<<<<<<< HEAD
-                    <a href="/manga_shop/categories/edit/<?php echo $category['id']; ?>" class="btn btn-warning">Edit</a>
-                    <a href="/manga_shop/categories/delete/<?php echo $category['id']; ?>" class="btn btn-danger">Delete</a>
-=======
                     <!-- Edit and Delete buttons with custom styling -->
                     <a href="/manga_shop/categories/edit/<?php echo $category['id']; ?>" class="btn btn-warning btn-sm">Edit</a>
                     <a href="/manga_shop/categories/delete/<?php echo $category['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this category?')">Delete</a>
->>>>>>> b376628 (16/11)
                 </td>
             </tr>
         <?php endforeach; ?>

@@ -1,27 +1,15 @@
 <?php return array(
     'root' => array(
         'name' => 'manga_shop/manga_shop',
-<<<<<<< HEAD
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'da18e31db1babb6ed99d1c492abc0fba6d303362',
-=======
         'pretty_version' => '1.0.0+no-version-set',
         'version' => '1.0.0.0',
         'reference' => null,
->>>>>>> b376628 (16/11)
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-<<<<<<< HEAD
-        'manga_shop/manga_shop' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'da18e31db1babb6ed99d1c492abc0fba6d303362',
-=======
         'brick/math' => array(
             'pretty_version' => '0.11.0',
             'version' => '0.11.0.0',
@@ -224,14 +212,11 @@
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
             'reference' => null,
->>>>>>> b376628 (16/11)
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-<<<<<<< HEAD
-=======
         'monolog/monolog' => array(
             'pretty_version' => '2.10.0',
             'version' => '2.10.0.0',
@@ -433,6 +418,5 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
->>>>>>> b376628 (16/11)
     ),
 );

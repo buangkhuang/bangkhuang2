@@ -23,11 +23,7 @@
 
     <!-- Link to Product Management -->
     <li class="nav-item">
-<<<<<<< HEAD
-      <a class="nav-link ajax-link collapsed" href="/manga_shop/products">
-=======
       <a class="nav-link ajax-link collapsed" href="/manga_shop/models">
->>>>>>> b376628 (16/11)
         <i class="bi bi-question-circle"></i>
         <span>Quản Lý Sản Phẩm</span>
       </a>
@@ -42,12 +38,7 @@
     </li>
 
     <!-- Link to Payment Management -->
-    <li class="nav-item">
-      <a class="nav-link ajax-link collapsed" href="/manga_shop/payments">
-        <i class="bi bi-card-list"></i>
-        <span>Quản Lý Thanh Toán</span>
-      </a>
-    </li>
+    
 
     <!-- Link to Order Management -->
     <li class="nav-item">
