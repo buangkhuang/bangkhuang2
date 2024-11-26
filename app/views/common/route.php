@@ -31,11 +31,7 @@ $router->add('POST', '/manga_shop/users/update/{id}', 'UserController@update'); 
 $router->add('GET', '/manga_shop/users/delete/{id}', 'UserController@delete');     // Xử lý xóa người dùng
 $router->add('GET', '/manga_shop/users/search', 'UserController@search');          // Tìm kiếm người dùng
 
-// Cấu hình route cho Payment (Thanh toán)
-$router->add('GET', '/payments', 'PaymentController@index');                            // Hiển thị trang thanh toán
-
 // Cấu hình route cho Order (Đơn hàng)
-// Routes for Order Management
 $router->add('GET', '/manga_shop/orders', 'OrderController@index');                   // Hiển thị danh sách đơn hàng
 $router->add('GET', '/manga_shop/orders/create', 'OrderController@create');           // Hiển thị form thêm mới đơn hàng
 $router->add('POST', '/manga_shop/orders/store', 'OrderController@store');            // Xử lý lưu trữ đơn hàng mới
@@ -43,6 +39,16 @@ $router->add('GET', '/manga_shop/orders/edit/{id}', 'OrderController@edit');    
 $router->add('POST', '/manga_shop/orders/update/{id}', 'OrderController@update');     // Xử lý cập nhật đơn hàng
 $router->add('GET', '/manga_shop/orders/delete/{id}', 'OrderController@delete');      // Xóa đơn hàng
 $router->add('GET', '/manga_shop/orders/show/{id}', 'OrderController@show');          // Hiển thị chi tiết đơn hàng
+
+// Định nghĩa route cho trang login
+$router->add('GET', '/manga_shop/login', 'LoginController@showLoginForm'); // Hiển thị form login
+$router->add('POST', '/manga_shop/login', 'LoginController@login');       // Xử lý đăng nhập
+$router->add('GET', '/manga_shop/logout', 'LoginController@logout');      // Xử lý đăng xuất
+
+// Định nghĩa route cho trang đăng ký
+$router->add('GET', '/manga_shop/register', 'RegisterController@showRegisterForm'); // Hiển thị form đăng ký
+$router->add('POST', '/manga_shop/register', 'RegisterController@register');        // Xử lý đăng ký
+
 
 // Lấy URL hiện tại và phương thức HTTP
 $url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
