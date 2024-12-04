@@ -20,12 +20,12 @@
     </div>
 
     <div class="form-group">
-        <label for="description">Description</label>
+        <label for="description">mô tả</label>
         <textarea class="form-control" id="description" name="description" rows="3" required><?php echo $model['description']; ?></textarea>
     </div>
 
     <div class="form-group">
-        <label for="price">Price</label>
+        <label for="price">giá</label>
         <input type="number" class="form-control" id="price" name="price" value="<?php echo $model['price']; ?>" required>
     </div>
 
@@ -35,12 +35,12 @@
     </div>
 
     <div class="form-group">
-        <label for="scale">Scale</label>
+        <label for="scale">tỉ lệ</label>
         <input type="text" class="form-control" id="scale" name="scale" value="<?php echo $model['scale']; ?>" required>
     </div>
 
     <div class="form-group">
-        <label for="material">Material</label>
+        <label for="material">chất liệu</label>
         <input type="text" class="form-control" id="material" name="material" value="<?php echo $model['material']; ?>" required>
     </div>
 

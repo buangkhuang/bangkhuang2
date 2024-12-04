@@ -5,12 +5,12 @@
     <thead class="thead-dark">
         <tr>
             <th>#</th>
-            <th>Customer Name</th>
-            <th>Customer Email</th>
-            <th>Customer Phone</th>
-            <th>Total Amount</th>
-            <th>Payment Status</th>
-            <th>Shipping Status</th>
+            <th>tên</th>
+            <th> Email</th>
+            <th>sdt</th>
+            <th>tổng tiền</th>
+            <th>trạng thái thanh toán</th>
+            <th>tình trạng vận chuyển</th>
             <th>Actions</th>
         </tr>
     </thead>

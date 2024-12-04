@@ -10,8 +10,8 @@
             <th scope="col">#</th>
             <th scope="col">Username</th>
             <th scope="col">Email</th>
-            <th scope="col">Role</th>
-            <th scope="col">Created At</th>
+            <th scope="col">quyền</th>
+            <th scope="col">Thời gian tạo</th>
             <th scope="col">Actions</th>
         </tr>
     </thead>

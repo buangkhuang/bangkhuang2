@@ -4,10 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "2f567913e087138ec38c6184fd935166",
-    "packages": [],
-=======
     "content-hash": "03b2f1eee3192071dcbd2a0537518ecd",
     "packages": [
         {
@@ -2688,7 +2684,6 @@
             "time": "2024-09-09T11:45:10+00:00"
         }
     ],
->>>>>>> b376628 (16/11)
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

@@ -48,21 +48,5 @@
       </a>
     </li>
 
-    <!-- Link to Login Page -->
-    <li class="nav-item">
-      <a class="nav-link ajax-link collapsed" href="/manga_shop/login">
-        <i class="bi bi-dash-circle"></i>
-        <span>Login</span>
-      </a>
-    </li>
-
-    <!-- Link to Register Page -->
-    <li class="nav-item">
-      <a class="nav-link ajax-link collapsed" href="/manga_shop/register">
-        <i class="bi bi-file-earmark"></i>
-        <span>Register</span>
-      </a>
-    </li>
-
   </ul>
 </aside>

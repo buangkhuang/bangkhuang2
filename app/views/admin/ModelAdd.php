@@ -12,17 +12,17 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="model_name">Model Name</label>
+        <label for="model_name">tên model</label>
         <input type="text" class="form-control" id="model_name" name="model_name" placeholder="Enter model name" required>
     </div>
 
     <div class="form-group">
-        <label for="description">Description</label>
+        <label for="description">mô tả</label>
         <textarea class="form-control" id="description" name="description" rows="3" placeholder="Enter model description" required></textarea>
     </div>
 
     <div class="form-group">
-        <label for="price">Price</label>
+        <label for="price">Giá</label>
         <input type="number" class="form-control" id="price" name="price" placeholder="Enter price" required>
     </div>
 
@@ -32,17 +32,17 @@
     </div>
 
     <div class="form-group">
-        <label for="scale">Scale</label>
+        <label for="scale">tỉ lệ</label>
         <input type="text" class="form-control" id="scale" name="scale" placeholder="Enter scale" required>
     </div>
 
     <div class="form-group">
-        <label for="material">Material</label>
+        <label for="material">vật liệu</label>
         <input type="text" class="form-control" id="material" name="material" placeholder="Enter material" required>
     </div>
 
     <div class="form-group">
-        <label for="dimensions">Dimensions</label>
+        <label for="dimensions">kích thước</label>
         <input type="text" class="form-control" id="dimensions" name="dimensions" placeholder="Enter dimensions" required>
     </div>
 
@@ -52,7 +52,7 @@
     </div>
 
     <div class="form-group">
-        <label for="stock_quantity">Stock Quantity</label>
+        <label for="stock_quantity">Số lượngg trong kho</label>
         <input type="number" class="form-control" id="stock_quantity" name="stock_quantity" placeholder="Enter stock quantity" required>
     </div>
 
